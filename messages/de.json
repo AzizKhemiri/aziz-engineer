@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "projects": "~/projects",
+    "hireMe": "~/Engineering Profile"
+  },
+  "home": {
+    "eyebrow": "whoami",
+    "projectsCard": {
+      "command": "cd ./projects",
+      "title": "Meine Projekte",
+      "description": "Open-Source-Tools, Experimente und Berufserfahrung Projekte."
+    },
+    "hireCard": {
+      "command": "cd ./engineering-profile",
+      "title": "Stellen Sie mich ein",
+      "description": "Berufserfahrung, Fähigkeiten und Zertifizierungen.."
+    }
+  },
+  "projectsPage": {
+    "command": "ls ./projects",
+    "title": "Dinge, die ich gebaut habe.",
+    "subtitle": "Persönliche und Open-Source-Arbeiten — Projekte, die ich baue, um zu lernen, zu veröffentlichen und zu teilen."
+  },
+  "hireMePage": {
+    "command": "cat az",
+    "title": "Software-Ingenieur, bereit für das Nächste.",
+    "subtitle": "Full-Stack-Erfahrung mit Next.js, Python und Cloud-Infrastruktur — Praktikumssuchende im Bereich Software- / Cloud-Engineering."
+  },
+  "experience": {
+    "heading": "experience --sort=recent"
+  },
+  "education": {
+    "heading": "education --list"
+  },
+  "skills": {
+    "heading": "skills --list"
+  },
+  "certifications": {
+    "heading": "certifications --verified",
+    "viewCredential": "Zertifikat ansehen"
+  },
+  "contact": {
+    "command": "contact --send",
+    "heading": "Praktikumssuchende im Bereich Software- / Cloud-Engineering.",
+    "subtext": "Kontaktieren Sie mich direkt, ohne Formular.",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "email": "Email",
+    "linkedin": "Linkedin",
+    "github": "Github"
+  },
+  "language": {
+    "label": "Sprache"
+  }
+}

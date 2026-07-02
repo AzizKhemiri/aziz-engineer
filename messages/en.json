@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "projects": "~/projects",
+    "hireMe": "~/Engineering Profile"
+  },
+  "home": {
+    "eyebrow": "whoami",
+    "projectsCard": {
+      "command": "cd ./projects",
+      "title": "My Projects",
+      "description": "Open-source tools, experiments, and Professional builds."
+    },
+    "hireCard": {
+      "command": "cd ./engineering-profile",
+      "title": "Engineering Profile",
+      "description": "Professional experience, skills, and certifications."
+    }
+  },
+  "projectsPage": {
+    "command": "ls ./projects",
+    "title": "Things I've built.",
+    "subtitle": "Personal and open-source work — the projects I build to learn, ship, and share."
+  },
+  "hireMePage": {
+    "command": "cat az",
+    "title": "Software engineer, ready for what's next.",
+    "subtitle": "Full-stack experience across Next.js, Python, and cloud infrastructure — Software / Cloud Engineering Internship Seeker."
+  },
+  "experience": {
+    "heading": "experience --sort=recent"
+  },
+  "education": {
+    "heading": "education --list"
+  },
+  "skills": {
+    "heading": "skills --list"
+  },
+  "certifications": {
+    "heading": "certifications --verified",
+    "viewCredential": "view credential"
+  },
+  "contact": {
+    "command": "contact --send",
+    "heading": "Software / Cloud Engineering Internship Seeker.",
+    "subtext": "Reach out directly, no forms.",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "email": "Email",
+    "linkedin": "Linkedin",
+    "github": "Github"
+  },
+  "language": {
+    "label": "Language"
+  }
+}

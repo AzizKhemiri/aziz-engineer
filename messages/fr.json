@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "projects": "~/projects",
+    "hireMe": "~/Engineering Profile"
+  },
+  "home": {
+    "eyebrow": "whoami",
+    "projectsCard": {
+      "command": "cd ./projects",
+      "title": "Mes Projets",
+      "description": "Outils open-source, expérimentations et projets professionnelle."
+    },
+    "hireCard": {
+      "command": "cd ./engineering-profile",
+      "title": "Recrutez-moi",
+      "description": "Expérience professionnelle, compétences et certifications."
+    }
+  },
+  "projectsPage": {
+    "command": "ls ./projects",
+    "title": "Ce que j'ai construit.",
+    "subtitle": "Projets personnels et open-source — ce que je construis pour apprendre, livrer et partager."
+  },
+  "hireMePage": {
+    "command": "cat az",
+    "title": "Ingénieur logiciel, prêt pour la suite.",
+    "subtitle": "Expérience full-stack en Next.js, Python et infrastructure cloud — Disponible pour un stage en ingénierie logicielle / cloud."
+  },
+  "experience": {
+    "heading": "experience --sort=recent"
+  },
+  "education": {
+    "heading": "education --list"
+  },
+  "skills": {
+    "heading": "skills --list"
+  },
+  "certifications": {
+    "heading": "certifications --verified",
+    "viewCredential": "voir le certificat"
+  },
+  "contact": {
+    "command": "contact --send",
+    "heading": "Disponible pour un stage en ingénierie logicielle / cloud.",
+    "subtext": "Contactez-moi directement, sans formulaire.",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "email": "Email",
+    "linkedin": "Linkedin",
+    "github": "Github"
+  },
+  "language": {
+    "label": "Langue"
+  }
+}
