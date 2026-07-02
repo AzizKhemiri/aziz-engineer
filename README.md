@@ -1,6 +1,6 @@
 # Aziz Khemiri — Portfolio
 
-A minimal, dual-mode portfolio built with Next.js. Visitors choose between
+Portfolio built with Next.js. Visitors choose between
 **`~/projects`** (personal & open-source work) and **`~/hire-me`** (professional
 experience, skills, certifications, contact).
 
@@ -25,19 +25,6 @@ Open [http://localhost:3000](http://localhost:3000).
 - **lucide-react** for icons
 - Content lives in plain TypeScript files under `data/` — no CMS
 
-## Structure
-
-```
-app/
-  layout.tsx        Root shell: fonts, theme provider, header/footer
-  page.tsx           Landing page — intro + mode picker
-  projects/page.tsx  "My Projects" mode
-  hire-me/page.tsx   "Hire Me" mode
-
-components/          UI building blocks (Header, Hero, ProjectCard, etc.)
-data/                Content: profile, experience, projects, skills, certifications
-lib/                 Shared helpers (audience filtering)
-```
 
 ## Editing content
 
@@ -50,7 +37,3 @@ All CV content is in `data/*.ts`. Each experience/project entry has an
 
 Add, remove, or edit entries there; no component changes needed.
 
-## Deploying
-
-Push to GitHub and import the repo on [Vercel](https://vercel.com/new) — zero
-config needed, it's a standard Next.js app.
