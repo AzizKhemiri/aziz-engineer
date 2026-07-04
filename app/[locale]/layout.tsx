@@ -11,6 +11,7 @@ import { routing } from "@/i18n/routing";
 import { t } from "@/data/i18n";
 import type { AppLocale } from "@/data/i18n";
 import { ContactCTA } from "@/components/ContactCTA";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -71,6 +72,7 @@ export default async function LocaleLayout({
             <Footer />
           </ThemeProvider>
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
