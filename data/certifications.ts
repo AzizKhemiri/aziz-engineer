@@ -2,7 +2,6 @@ export type Certification = {
   name: string;
   issuer: string;
   period: string | null;
-  /** Credential URL. Left null intentionally — add a real verification link later. */
   link: string | null;
 };
 
