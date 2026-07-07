@@ -10,12 +10,24 @@ the CLI tools and networking background behind the CV.
 
 ## Getting started
 
-```bash
-npm install
-npm run dev
-```
+To get a local copy up and running, follow these simple steps:
 
-Open [http://localhost:3000](http://localhost:3000).
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Oussemasahbeni/portfolio-Oussema-Sahbeni
+
+   ```
+
+2. Install dependencies:
+   ```cd your-portfolio
+   npm install
+   ```
+3. Run the development mode:
+   ```
+   npm run dev
+   ```
+4. Open your browser and navigate to http://localhost:3000/ to view the portfolio.
 
 ## Stack
 
@@ -24,16 +36,19 @@ Open [http://localhost:3000](http://localhost:3000).
 - **next-themes** for the light/dark toggle
 - **lucide-react** for icons
 - Content lives in plain TypeScript files under `data/` — no CMS
+- **Vercel Analytics:** Integrating Vercel Analytics to gain insights into user behavior, track page views, and measure the overall performance of the portfolio.
+
+## Deployment
+
+This portfolio is deployed using Vercel, ensuring seamless and reliable hosting. Check it out live at [https://aziz-engineer.vercel.app/](https://aziz-engineer.vercel.app/).
 
 
 ## Editing content
 
 All CV content is in `data/*.ts`. Each experience/project entry has an
-`audience` field:
+`audience` field.
 
-- `"business"` — only shown on `/hire-me`
-- `"personal"` — only shown on `/projects`
-- `"both"` — shown on both
 
-Add, remove, or edit entries there; no component changes needed.
+
+
 
