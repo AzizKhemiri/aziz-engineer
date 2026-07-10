@@ -19,7 +19,7 @@ export const skills: { category: LocalizedText; items: string[] }[] = [
   },
   {
     category: { en: "Backend", fr: "Backend", de: "Backend" },
-    items: ["Python", "XML", "PHP", "Java", "Node.js", "REST APIs"],
+    items: ["Python", "Java", "Nest.js", "Node.js", "REST APIs", "XML", "PHP"],
   },
   {
     category: { en: "Database", fr: "Bases de données", de: "Datenbanken" },
