@@ -37,6 +37,12 @@ export const certifications: Certification[] = [
     link: "https://www.freecodecamp.org/certification/AzizKhemiri/javascript-algorithms-and-data-structures",
   },
   {
+    name: "Cybersecurity Defense Analyst Career Path",
+    issuer: "Cisco Networking Academy - Splunk",
+    period: null,
+    link: "https://www.credly.com/badges/4753a0c6-b246-45f5-94d2-fcc8cdaab383",
+  },
+  {
     name: "Certificate of Training in AI and ML",
     issuer: "Virtual University of Tunis",
     period: null,
