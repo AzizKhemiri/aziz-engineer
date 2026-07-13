@@ -71,9 +71,9 @@ export const experience: ExperienceEntry[] = [
   },
   {
     role: {
-      en: "Summer Internship — Technical Support",
-      fr: "Stage d'été — Support technique",
-      de: "Sommerpraktikum — Technischer Support",
+      en: "Technical Support Intern",
+      fr: "Support technique Intern",
+      de: "Technischer Support Praktikant",
     },
     company: "Tunisia Télécom",
     location: {
@@ -93,9 +93,9 @@ export const experience: ExperienceEntry[] = [
   },
   {
     role: {
-      en: "Summer Internship — Technical Support",
-      fr: "Stage d'été — Support technique",
-      de: "Sommerpraktikum — Technischer Support",
+      en: "Technical Support Intern",
+      fr: "Support technique Intern",
+      de: "Technischer Support Praktikant",
     },
     company: "Tunisia Télécom",
     location: {
