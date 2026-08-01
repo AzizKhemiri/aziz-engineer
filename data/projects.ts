@@ -20,8 +20,8 @@ export const projects: ProjectEntry[] = [
     period: "May 2026 – Present",
     audience: "personal",
     description: {
-      en: "Open-source Python package published on PyPI.",
-      fr: "Package Python open-source publié sur PyPI.",
+      en: "IronOps – Open Source Python CLI for Server Monitoring.",
+      fr: "IronOps – Open Source Python CLI pour la surveillance des serveurs.",
       de: "Open-Source-Python-Paket, veröffentlicht auf PyPI.",
     },
     bullets: [
@@ -77,7 +77,7 @@ export const projects: ProjectEntry[] = [
   },
   {
     name: "Manara — AI-Driven Educational Platform",
-    period: "Sep. 2024 – Dec. 2024",
+    period: "Sep. 2023 – Dec. 2023",
     audience: "both",
     description: {
       en: "AI-powered educational platform for personalized learning.",
@@ -97,7 +97,7 @@ export const projects: ProjectEntry[] = [
   },
   {
     name: "The Medical — Web App for Medical Practice Management",
-    period: "Feb. 2024 – Apr. 2024",
+    period: "Feb. 2022 – Apr. 2022",
     audience: "both",
     description: {
       en: "Multi-role practice management platform.",
@@ -115,7 +115,7 @@ export const projects: ProjectEntry[] = [
     tools: ["VS Code", "XAMPP"],
     github: "https://github.com/AzizKhemiri/The-Medical",
   },
-  {
+  /*{
     name: "DevWay — Online Learning Web Application",
     period: "Feb. 2023 – Apr. 2023",
     audience: "personal",
@@ -134,5 +134,5 @@ export const projects: ProjectEntry[] = [
     stack: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "PHP", "MySQL"],
     tools: ["VS Code", "Trello", "XAMPP"],
     github: "#",
-  },
+  },*/
 ];
