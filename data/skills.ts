@@ -3,7 +3,7 @@ import type { LocalizedText } from "./i18n";
 export const skills: { category: LocalizedText; items: string[] }[] = [
   {
     category: { en: "Cloud & DevOps", fr: "Cloud & DevOps", de: "Cloud & DevOps" },
-    items: ["Google Cloud Platform", "Microsoft Azure", "GitHub Actions (CI/CD)", "Git", "Docker"],
+    items: ["Microsoft Azure", "GitHub Actions (CI/CD)", "Git", "Docker"],
   },
   {
     category: {
@@ -23,7 +23,7 @@ export const skills: { category: LocalizedText; items: string[] }[] = [
   },
   {
     category: { en: "Database", fr: "Bases de données", de: "Datenbanken" },
-    items: ["MySQL", "Supabase", "Prisma ORM", "SQL", "PL/SQL"],
+    items: ["MySQL", "PostgreSQL", "Prisma ORM", "SQL", "PL/SQL"],
   },
   {
     category: {
