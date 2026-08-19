@@ -21,6 +21,18 @@
     "title": "Dinge, die ich gebaut habe.",
     "subtitle": "Persönliche und Open-Source-Arbeiten — Projekte, die ich baue, um zu lernen, zu veröffentlichen und zu teilen."
   },
+  "projectDetail": {
+    "back": "~/projects",
+    "overview": "Überblick",
+    "problem": "Das Problem",
+    "role": "Meine Rolle & Beitrag",
+    "features": "Hauptfunktionen",
+    "stack": "Tech-Stack",
+    "impact": "Ergebnisse & Wirkung",
+    "screenshots": "Screenshots",
+    "viewCode": "Code ansehen",
+    "liveDemo": "Live-Demo"
+  },
   "hireMePage": {
     "command": "cat az",
     "title": "Software-Ingenieur, bereit für das Nächste.",

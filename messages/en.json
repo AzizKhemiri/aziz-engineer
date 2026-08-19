@@ -21,6 +21,18 @@
     "title": "Things I've built.",
     "subtitle": "Personal and open-source work — the projects I build to learn, ship, and share."
   },
+  "projectDetail": {
+    "back": "~/projects",
+    "overview": "Overview",
+    "problem": "The problem",
+    "role": "My role & contribution",
+    "features": "Key features",
+    "stack": "Tech stack",
+    "impact": "Results & impact",
+    "screenshots": "Screenshots",
+    "viewCode": "View code",
+    "liveDemo": "Live demo"
+  },
   "hireMePage": {
     "command": "cat az",
     "title": "Software engineer, ready for what's next.",

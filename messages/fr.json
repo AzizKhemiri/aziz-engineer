@@ -21,6 +21,18 @@
     "title": "Ce que j'ai construit.",
     "subtitle": "Projets personnels et open-source — ce que je construis pour apprendre, livrer et partager."
   },
+  "projectDetail": {
+    "back": "~/projects",
+    "overview": "Aperçu",
+    "problem": "Le problème",
+    "role": "Mon rôle & contribution",
+    "features": "Fonctionnalités clés",
+    "stack": "Stack technique",
+    "impact": "Résultats & impact",
+    "screenshots": "Captures d'écran",
+    "viewCode": "Voir le code",
+    "liveDemo": "Démo en ligne"
+  },
   "hireMePage": {
     "command": "cat az",
     "title": "Ingénieur logiciel, prêt pour la suite.",
