@@ -12,12 +12,12 @@ export const certifications: Certification[] = [
     period: null,
     link: "https://www.datacamp.com/completed/statement-of-accomplishment/track/bbc63a2ee00b0bc8933526258dcbf2f2d68c0339",
   },
-  {
-    name: "Global Consumer Intelligence Program",
-    issuer: "Matsuo-Iwasawa Lab, University of Tokyo",
-    period: "Apr 2026 – Present",
-    link: "https://weblab.t.u-tokyo.ac.jp/en/lecture/gci/",
-  },
+  //{
+  //  name: "Global Consumer Intelligence Program",
+  //  issuer: "Matsuo-Iwasawa Lab, University of Tokyo",
+  //  period: "Apr 2026 – Present",
+  //  link: "https://weblab.t.u-tokyo.ac.jp/en/lecture/gci/",
+  //},
   {
     name: "GitHub Foundations",
     issuer: "GitHub & DataCamp",
