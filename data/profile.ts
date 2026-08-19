@@ -36,6 +36,7 @@ export const profile = {
         de: "Ingenieurstudium in Informatik und Telekommunikation",
       } satisfies LocalizedText,
       school: "ISITCom Sousse",
+      logo: "/logos/isitcom.png",
       location: {
         en: "Sousse, Tunisia",
         fr: "Sousse, Tunisie",
@@ -49,7 +50,8 @@ export const profile = {
         fr: "Licence en Informatique",
         de: "Bachelor-Abschluss in Informatik",
       } satisfies LocalizedText,
-      school: "Higher Institute of Applied Mathematics and Computer Science of Kairouan",
+      school: "Higher Institute of Applied Mathematics and Computer Science",
+      logo: "/logos/ismaik.jpg",
       location: {
         en: "Kairouan, Tunisia",
         fr: "Kairouan, Tunisie",
