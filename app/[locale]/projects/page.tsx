@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations, useLocale } from "next-intl";
 import { Hero } from "@/components/Hero";
 import { ProjectCard } from "@/components/ProjectCard";
+import { Reveal } from "@/components/Reveal";
 import { projects } from "@/data/projects";
 import { matchesAudience } from "@/lib/utils";
 import type { AppLocale } from "@/data/i18n";
@@ -27,8 +28,10 @@ export default function ProjectsPage() {
       <Hero command={t("command")} title={t("title")} subtitle={t("subtitle")} />
       <section className="mx-auto max-w-4xl px-6 py-14">
         <div className="grid gap-5 sm:grid-cols-2">
-          {entries.map((project) => (
-            <ProjectCard key={project.name} project={project} locale={locale} />
+          {entries.map((project, i) => (
+            <Reveal key={project.slug} delay={i * 60}>
+              <ProjectCard project={project} locale={locale} />
+            </Reveal>
           ))}
         </div>
       </section>
