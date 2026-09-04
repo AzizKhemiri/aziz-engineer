@@ -33,9 +33,9 @@ export const experience: ExperienceEntry[] = [
     audience: "both",
     bullets: [
       {
-        en: "Developed and collaborated on an Intelligent Network Operations Center (NOC) platform that was accepted by the Head of the Unit and adopted as an internship solution to improve collaboration and bridge the gap between technical and commercial teams.",
-        fr: "Conçu et développé, en collaboration avec l’équipe, une plateforme intelligente de Network Operations Center (NOC), validée par le responsable de l’unité Centrale d'Opération Réseaux et retenue comme solution de stage afin d’améliorer la collaboration et de renforcer la coordination entre les équipes techniques et commerciales.",
-        de: "Entwicklung und Mitarbeit an einer Intelligenten Network Operations Center (NOC)-Plattform, die vom Leiter der Einheit genehmigt und als Praktikumslösung eingesetzt wurde, um die Zusammenarbeit zu verbessern und die Kluft zwischen technischen und kaufmännischen Teams zu überbrücken.",
+        en: "Developed an Intelligent Network Operations Center (NOC) platform that was accepted by the Head of the Unit and adopted as an internship solution to improve collaboration and bridge the gap between technical and commercial teams.",
+        fr: "Conçu et développé, une plateforme intelligente de Network Operations Center (NOC), validée par le responsable de l’unité Centrale d'Opération Réseaux et retenue comme solution de stage afin d’améliorer la collaboration et de renforcer la coordination entre les équipes techniques et commerciales.",
+        de: "Entwickelte ein Intelligenten Network Operations Center (NOC)-Plattform, die vom Leiter der Einheit genehmigt und als Praktikumslösung eingesetzt wurde, um die Zusammenarbeit zu verbessern und die Kluft zwischen technischen und kaufmännischen Teams zu überbrücken.",
       },
       {
         en: "Developed a RAG AI assistant with Llama and Groq that enables engineers to query operational data in natural language, providing context-aware answers from logs, alerts, metrics, incidents, and network device information.",
