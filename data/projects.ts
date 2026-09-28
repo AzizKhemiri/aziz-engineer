@@ -26,10 +26,97 @@ export type ProjectEntry = {
 };
 
 export const projects: ProjectEntry[] = [
+  // qc pfe
+  {
+    slug: "qc",
+    name: "QC — Intelligent Cryptocurrency Management Platform",
+    period: "Feb. 2025 – May 2025",
+    audience: "both",
+    description: {
+      en: "AI-powered, blockchain-based platform for cryptocurrency portfolio management and transaction tracking.",
+      fr: "Plateforme intelligente basée sur la blockchain pour la gestion de portefeuilles de cryptomonnaies et le suivi des transactions.",
+      de: "KI-gestützte, blockchainbasierte Plattform für die Verwaltung von Krypto-Portfolios und die Verfolgung von Transaktionen.",
+    },
+    problem: {
+      en: "Crypto investors usually juggle several wallets, exchanges, and price trackers, with no single view of their holdings or transaction history. Market data is scattered across tools, and interacting with the blockchain requires technical knowledge, which makes portfolio decisions slow and error-prone for non-experts.",
+      fr: "Les investisseurs en cryptomonnaies jonglent généralement entre plusieurs portefeuilles, plateformes d'échange et outils de suivi des prix, sans vue unique de leurs avoirs ni de l'historique des transactions. Les données de marché sont dispersées, et interagir avec la blockchain demande des connaissances techniques, ce qui rend les décisions lentes et sujettes aux erreurs pour les non-experts.",
+      de: "Krypto-Anleger jonglieren meist mit mehreren Wallets, Börsen und Kurs-Trackern, ohne einen zentralen Überblick über Bestände und Transaktionshistorie. Marktdaten sind über viele Tools verstreut, und die Interaktion mit der Blockchain erfordert technisches Wissen, was Entscheidungen für Nicht-Experten langsam und fehleranfällig macht.",
+    },
+    role: {
+      en: "Full Stack Developer intern at Aidodev — designed and built the platform end to end: full-stack application, CI/CD pipeline to Google Cloud Platform, AI features, and third-party integrations.",
+      fr: "Stagiaire Développeur Full Stack chez Aidodev — conception et développement complet de la plateforme : application full stack, pipeline CI/CD vers Google Cloud Platform, fonctionnalités IA et intégrations de services tiers.",
+      de: "Full-Stack-Entwickler-Praktikant bei Aidodev — Entwurf und vollständige Entwicklung der Plattform: Full-Stack-Anwendung, CI/CD-Pipeline zur Google Cloud Platform, KI-Funktionen und Integrationen von Drittdiensten.",
+    },
+    bullets: [
+      {
+        en: "Built an intelligent blockchain-based platform that streamlines cryptocurrency portfolio management and transaction tracking.",
+        fr: "Développement d'une plateforme intelligente basée sur la blockchain qui simplifie la gestion de portefeuilles de cryptomonnaies et le suivi des transactions.",
+        de: "Entwicklung einer intelligenten, blockchainbasierten Plattform, die die Verwaltung von Krypto-Portfolios und die Verfolgung von Transaktionen vereinfacht.",
+      },
+      {
+        en: "Automated deployment with a CI/CD pipeline using GitHub Actions, enabling reliable releases to Google Cloud Platform.",
+        fr: "Automatisation du déploiement avec un pipeline CI/CD GitHub Actions, permettant des mises en production fiables sur Google Cloud Platform.",
+        de: "Automatisierung des Deployments mit einer CI/CD-Pipeline über GitHub Actions für zuverlässige Releases auf der Google Cloud Platform.",
+      },
+      {
+        en: "Added AI-powered capabilities (Gemini) and integrated third-party services for blockchain operations, market data, authentication, and email notifications.",
+        fr: "Ajout de fonctionnalités IA (Gemini) et intégration de services tiers pour les opérations blockchain, les données de marché, l'authentification et les notifications par e-mail.",
+        de: "Ergänzung von KI-Funktionen (Gemini) und Integration von Drittdiensten für Blockchain-Operationen, Marktdaten, Authentifizierung und E-Mail-Benachrichtigungen.",
+      },
+      {
+        en: "Implemented a scalable full-stack architecture with Next.js, Prisma, and Supabase for a secure and responsive user experience.",
+        fr: "Mise en place d'une architecture full stack évolutive avec Next.js, Prisma et Supabase pour une expérience utilisateur sécurisée et réactive.",
+        de: "Umsetzung einer skalierbaren Full-Stack-Architektur mit Next.js, Prisma und Supabase für ein sicheres und reaktionsschnelles Nutzererlebnis.",
+      },
+    ],
+    impact: {
+      en: "Delivered a working, cloud-deployed platform that brings portfolio management, transaction tracking, live market data, and AI assistance into one place, released through an automated pipeline.",
+      fr: "Livraison d'une plateforme fonctionnelle déployée dans le cloud, réunissant gestion de portefeuille, suivi des transactions, données de marché en direct et assistance IA au même endroit, mise en production via un pipeline automatisé.",
+      de: "Lieferung einer funktionierenden, in der Cloud bereitgestellten Plattform, die Portfolioverwaltung, Transaktionsverfolgung, Live-Marktdaten und KI-Unterstützung an einem Ort vereint und über eine automatisierte Pipeline veröffentlicht wird.",
+    },
+    stack: ["Next.js", "Tailwind CSS", "Prisma", "Supabase", "Gemini", "Solana", "Rust", "Python"],
+    tools: ["Google Cloud Platform", "GitHub Actions", "Docker", "Git/GitHub", "VS Code", "Postman", "Thirdweb"],
+    demo: "https://aidodevqc.vercel.app/",
+    images: [
+      "/proj-qc/0_logo_qc_app.png",
+      "/proj-qc/1_qc_app.png",
+      "/proj-qc/1.2_qc_app.png",
+      "/proj-qc/1.3_qc_app.png",
+      "/proj-qc/1.4_qc_app.png",
+      "/proj-qc/2.0_qc_app.png",
+      "/proj-qc/3_qc_app.png",
+      "/proj-qc/3.1_qc_app.png",
+      "/proj-qc/3.2_qc_app.png",
+      "/proj-qc/4_qc_app.png",
+      "/proj-qc/4.1_qc_app.png",
+      "/proj-qc/5_qc_app.png",
+      "/proj-qc/5.0_qc_app.png",
+      "/proj-qc/5.1_qc_app.png",
+      "/proj-qc/5.2_qc_app.png",
+      "/proj-qc/5.3_qc_app.png",
+      "/proj-qc/6_qc_app.png",
+      "/proj-qc/6.1_qc_app.png",
+      "/proj-qc/6.2_qc_app.png",
+      "/proj-qc/6.2.0_qc_app.png",
+      "/proj-qc/6.2.1_qc_app.png",
+      "/proj-qc/6.2.2_qc_app.png",
+      "/proj-qc/6.2.2.2_qc_app.png",
+      "/proj-qc/6.2.3_qc_app.png",
+      "/proj-qc/6.2.4_qc_app.png",
+      "/proj-qc/6.3_qc_app.png",
+      "/proj-qc/6.4_qc_app.png",
+      "/proj-qc/6.5_qc_app.png",
+      "/proj-qc/7_qc_app.png",
+      "/proj-qc/8_qc_app.png",
+      "/proj-qc/9_qc_app_contact.png"
+    ],
+  },
+
+  // ironops
   {
     slug: "ironops",
     name: "IronOps",
-    period: "May 2026 – Present",
+    period: "May 2026 – Sept 2026",
     audience: "personal",
     description: {
       en: "IronOps – Open Source Python CLI for Server Monitoring.",
