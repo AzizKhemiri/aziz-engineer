@@ -26,6 +26,53 @@ export type ProjectEntry = {
 };
 
 export const projects: ProjectEntry[] = [
+  // ironops
+  {
+    slug: "ironops",
+    name: "IronOps",
+    period: "May 2026 – Sept 2026",
+    audience: "personal",
+    description: {
+      en: "IronOps – Open Source Python CLI for Server Monitoring.",
+      fr: "IronOps – Open Source Python CLI pour la surveillance des serveurs.",
+      de: "Open-Source-Python-Paket, veröffentlicht auf PyPI.",
+    },
+    problem: {
+      en: "Monitoring a handful of remote Linux servers usually means logging into each one by hand, or standing up a heavy dashboard just to check disk space and uptime.",
+      fr: "Surveiller quelques serveurs Linux distants oblige souvent à se connecter à chacun manuellement, ou à déployer un tableau de bord lourd juste pour vérifier l'espace disque et la disponibilité.",
+      de: "Die Überwachung einiger weniger entfernter Linux-Server bedeutet meist, sich manuell bei jedem einzelnen anzumelden oder ein aufwendiges Dashboard aufzusetzen, nur um Speicherplatz und Verfügbarkeit zu prüfen.",
+    },
+    role: {
+      en: "Sole developer — designed the CLI, built the SSH-based health checks, and published the package on PyPI.",
+      fr: "Développeur unique — conception du CLI, développement des vérifications de santé via SSH, et publication du package sur PyPI.",
+      de: "Alleiniger Entwickler — Entwurf der CLI, Entwicklung der SSH-basierten Statusprüfungen und Veröffentlichung des Pakets auf PyPI.",
+    },
+    bullets: [
+      {
+        en: "Developed and published a Python CLI for monitoring remote Linux servers over SSH with automated health reporting and alerts.",
+        fr: "Développement et publication d'un CLI Python pour surveiller des serveurs Linux distants via SSH, avec rapports de santé et alertes automatisés.",
+        de: "Entwicklung und Veröffentlichung einer Python-CLI zur Überwachung entfernter Linux-Server über SSH mit automatisierten Statusberichten und Warnmeldungen.",
+      },
+    ],
+    impact: {
+      en: "Published as an open-source PyPI package, giving developers a lightweight, dashboard-free way to keep an eye on their servers.",
+      fr: "Publié en open source sur PyPI, offrant aux développeurs un moyen léger de surveiller leurs serveurs sans tableau de bord.",
+      de: "Als Open-Source-Paket auf PyPI veröffentlicht — ein leichtgewichtiger Weg für Entwickler, ihre Server ohne Dashboard im Blick zu behalten.",
+    },
+    stack: ["Python", "paramiko", "PyYAML", "smtplib", "cron", "JSON"],
+    images: [
+      "/proj-iron/ironops.png",
+      "/proj-iron/1-demo.png",
+      "/proj-iron/2-demo.png",
+      "/proj-iron/3-demo.png",
+      "/proj-iron/4-mac-demo.png",
+      "/proj-iron/ironops-architecture.png"
+    ],
+    //images: ["/projects/ironops.png"],
+    tools: ["VS Code", "GitHub", "PyPI"],
+    github: "https://github.com/AzizKhemiri/ironops",
+  },
+  
   // qc pfe
   {
     slug: "qc",
@@ -112,52 +159,7 @@ export const projects: ProjectEntry[] = [
     ],
   },
 
-  // ironops
-  {
-    slug: "ironops",
-    name: "IronOps",
-    period: "May 2026 – Sept 2026",
-    audience: "personal",
-    description: {
-      en: "IronOps – Open Source Python CLI for Server Monitoring.",
-      fr: "IronOps – Open Source Python CLI pour la surveillance des serveurs.",
-      de: "Open-Source-Python-Paket, veröffentlicht auf PyPI.",
-    },
-    problem: {
-      en: "Monitoring a handful of remote Linux servers usually means logging into each one by hand, or standing up a heavy dashboard just to check disk space and uptime.",
-      fr: "Surveiller quelques serveurs Linux distants oblige souvent à se connecter à chacun manuellement, ou à déployer un tableau de bord lourd juste pour vérifier l'espace disque et la disponibilité.",
-      de: "Die Überwachung einiger weniger entfernter Linux-Server bedeutet meist, sich manuell bei jedem einzelnen anzumelden oder ein aufwendiges Dashboard aufzusetzen, nur um Speicherplatz und Verfügbarkeit zu prüfen.",
-    },
-    role: {
-      en: "Sole developer — designed the CLI, built the SSH-based health checks, and published the package on PyPI.",
-      fr: "Développeur unique — conception du CLI, développement des vérifications de santé via SSH, et publication du package sur PyPI.",
-      de: "Alleiniger Entwickler — Entwurf der CLI, Entwicklung der SSH-basierten Statusprüfungen und Veröffentlichung des Pakets auf PyPI.",
-    },
-    bullets: [
-      {
-        en: "Developed and published a Python CLI for monitoring remote Linux servers over SSH with automated health reporting and alerts.",
-        fr: "Développement et publication d'un CLI Python pour surveiller des serveurs Linux distants via SSH, avec rapports de santé et alertes automatisés.",
-        de: "Entwicklung und Veröffentlichung einer Python-CLI zur Überwachung entfernter Linux-Server über SSH mit automatisierten Statusberichten und Warnmeldungen.",
-      },
-    ],
-    impact: {
-      en: "Published as an open-source PyPI package, giving developers a lightweight, dashboard-free way to keep an eye on their servers.",
-      fr: "Publié en open source sur PyPI, offrant aux développeurs un moyen léger de surveiller leurs serveurs sans tableau de bord.",
-      de: "Als Open-Source-Paket auf PyPI veröffentlicht — ein leichtgewichtiger Weg für Entwickler, ihre Server ohne Dashboard im Blick zu behalten.",
-    },
-    stack: ["Python", "paramiko", "PyYAML", "smtplib", "cron", "JSON"],
-    images: [
-      "/proj-iron/ironops.png",
-      "/proj-iron/1-demo.png",
-      "/proj-iron/2-demo.png",
-      "/proj-iron/3-demo.png",
-      "/proj-iron/4-mac-demo.png",
-      "/proj-iron/ironops-architecture.png"
-    ],
-    //images: ["/projects/ironops.png"],
-    tools: ["VS Code", "GitHub", "PyPI"],
-    github: "https://github.com/AzizKhemiri/ironops",
-  },
+  
   {
     slug: "castor-cli",
     name: "CASTOR CLI — Secure Authentication Console",
