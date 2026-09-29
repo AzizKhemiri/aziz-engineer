@@ -31,7 +31,7 @@ export const skills: { category: LocalizedText; items: string[] }[] = [
       fr: "Systèmes d'exploitation",
       de: "Betriebssysteme",
     },
-    items: ["Linux (Ubuntu)", "macOS", "Windows"],
+    items: ["Linux (Ubuntu, Fedora)", "macOS", "Windows"],
   },
   {
     category: {
