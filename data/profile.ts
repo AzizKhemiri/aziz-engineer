@@ -31,8 +31,8 @@ export const profile = {
   education: [
     {
       degree: {
-        en: "Engineering Cycle in Computer and Telecommunications",
-        fr: "Cycle d'ingénieur en Informatique et Télécommunications",
+        en: "Engineering Degree in Computer and Telecommunications",
+        fr: "Diplôme d'Ingénieur en Informatique et Télécommunications",
         de: "Ingenieurstudium in Informatik und Telekommunikation",
       } satisfies LocalizedText,
       school: "ISITCom Sousse",
